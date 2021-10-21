@@ -3,6 +3,6 @@
 
 auto main() -> int
 {
-    std::cout << "Hello, Kajetan Majda\n";
+    std::cout << "Hello, Kajetan! \n";
     return 0;
 }
