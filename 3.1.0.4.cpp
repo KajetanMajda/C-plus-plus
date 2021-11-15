@@ -15,6 +15,6 @@ int main()
 	}
 	cout << "suma:"; 
 	
-	cout << n << endl;
+	cout << s << endl;
 	return 0;
 }
