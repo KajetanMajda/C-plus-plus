@@ -3,7 +3,8 @@ using namespace std;
 
 int search(int n, int x)
 {
-	int A[n];
+	int A[10000];
+	int b;
 	for (int i = 0; i < n; i++)
 	{
 		cout << "A[" << i << "]:";
@@ -11,7 +12,11 @@ int search(int n, int x)
 	}
 	for (int i = 0; i < n; i++)
 	{
-		if (A[i] == x) return x;
+		if (A[i] == x) 
+		{
+			b=i;
+			return b;
+		}
 	}
 	return -1;
 }
