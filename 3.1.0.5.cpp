@@ -14,14 +14,14 @@ void min_max(int n)
 	{
 		for (int j = 0; j < n; j++)
 		{
-			if (A[i] < A[j] && A[i] <= min) min = A[i];
-			if (A[i] < A[j] && A[j] <= min) min = A[j];
-			if (A[i] > A[j] && A[i] >= max) max = A[i];
-			if (A[i] > A[j] && A[j] <= min) min = A[j];
+			if (A[i] < A[j] && A[i] <= min) min = i;
+			if (A[i] < A[j] && A[j] <= min) min = j;
+			if (A[i] > A[j] && A[i] >= max) max = i;
+			if (A[i] > A[j] && A[j] <= min) min = j;
 		}
 	}
 	cout << "MIN: " << min << endl;
-	cout << "MAX:" << max << endl;
+	cout << "MAX: " << max << endl;
 }
 
 int main()
