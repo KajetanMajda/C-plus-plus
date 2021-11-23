@@ -18,7 +18,7 @@ void srodek2(int c)
 
 int main()
 {
-	int a, b, c, d;
+	int a, b, c;
 	poczatek(a);
 	srodek1(b);
 	srodek1(b);
