@@ -1,3 +1,1 @@
-# C-plus-plus
-
-Just No
+# Just No
